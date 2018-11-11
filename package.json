@@ -1,0 +1,22 @@
+{
+  "name": "os",
+  "version": "1.0.0",
+  "description": "Wanna know your operating system? - I know right :)",
+  "license": "MIT",
+  "keywords": [
+    "operating-system",
+    "os",
+    "macos",
+    "linux",
+    "windows",
+    "win32",
+    "win64",
+    "bin",
+    "cli"
+  ],
+  "repo": "abranhe/os",
+  "dependencies": {
+    "abranhe/os.c": "1.0.2"
+  },
+  "install": "make install"
+}
