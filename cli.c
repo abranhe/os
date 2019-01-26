@@ -21,7 +21,7 @@
  */
 
 void
-usage() {
+usage(void) {
   fprintf(stderr,
     "\n  Usage: os [options]"
     "\n"
@@ -45,7 +45,7 @@ usage() {
  */
 
 void
-version() {
+version(void) {
   printf("%s\n", VERSION);
   exit(0);
 }

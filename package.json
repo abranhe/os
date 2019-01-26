@@ -16,7 +16,7 @@
   ],
   "repo": "abranhe/os",
   "dependencies": {
-    "abranhe/os.c": "1.0.2"
+    "abranhe/os.c": "1.0.3"
   },
   "install": "make install"
 }
