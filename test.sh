@@ -19,11 +19,11 @@ function assert {
 
 describe "Help"
   ./os --help > /dev/null 2>&1
-  assert $? 0
+  assert $? 1
 
 describe "Help: short flag"
   ./os -h > /dev/null 2>&1
-  assert $? 0
+  assert $? 1
 
 describe "Version"
   ./os --version > /dev/null 2>&1
@@ -35,6 +35,14 @@ describe "Version: short flag"
 
 describe "Execute: more than two arguments"
   ./os foo bar baz > /dev/null 2>&1
+  assert $? 1
+
+describe "Execute: no arguments"
+  ./os > /dev/null 2>&1
+  assert $? 0
+
+describe "Execute: one argumet or flag"
+  ./os foo > /dev/null 2>&1
   assert $? 1
 
 printf "\033[32m\n(✓) Passed $tests assertions without errors\033[0m\n"

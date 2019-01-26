@@ -1,7 +1,7 @@
 {
   "name": "os",
-  "version": "1.0.0",
-  "description": "Wanna know your operating system? - I know right :)",
+  "version": "1.0.1",
+  "description": "Wanna know your operating system?",
   "license": "MIT",
   "keywords": [
     "operating-system",
@@ -16,7 +16,7 @@
   ],
   "repo": "abranhe/os",
   "dependencies": {
-    "abranhe/os.c": "1.0.2"
+    "abranhe/os.c": "1.0.3"
   },
   "install": "make install"
 }
