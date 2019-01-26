@@ -40,21 +40,17 @@ $ os --help
 You will get:
 
 ```
-Wanna know your operating system? - I know right :)
+  Usage: os [options]
 
- Usage:
+  Options:
 
-   $ os <flag>
+    -h, --help      output help information
+    -v, --version   output os version
 
- Options:
+  Examples:
 
-   -v,  --version     output version number
-   -h,  --help        output usage information
-
- Example:
-
-   $ os
-   macOS
+    $ os
+    macOS
 ```
 
 ## Related

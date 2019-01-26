@@ -4,7 +4,7 @@
 *.gcov
 *.gcda
 *.gcno
-binary
+os
 test
 example
-coverage
+deps/
