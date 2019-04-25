@@ -1,4 +1,4 @@
-*.DS_STORE
+*.DS_Store
 *.o
 *.log
 *.gcov
@@ -7,4 +7,3 @@
 os
 test
 example
-deps/
