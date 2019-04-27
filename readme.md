@@ -23,10 +23,22 @@
 
 ## Installation
 
-*Installing with [Clib](https://github.com/clibs/clib)*
+Installing with [Clib](https://github.com/clibs/clib)
 
 ```sh
 $ clib install abranhe/os
+```
+
+Otherwise you can install by running the following on your terminal (**Unix** only)
+
+```sh
+$ curl -s https://sh.abranhe.com/os | bash
+```
+
+to uninstall it you can use
+
+```sh
+$ curl -s https://sh.abranhe.com/os/uninstall | bash
 ```
 
 ## Usage
